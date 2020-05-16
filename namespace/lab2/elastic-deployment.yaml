@@ -8,7 +8,7 @@ spec:
   selector:   
     matchLabels:
       app: elastic
-  replicas: 3
+  replicas: 2
   strategy:
      type: RollingUpdate
   minReadySeconds: 2
